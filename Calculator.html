@@ -33,7 +33,9 @@
     </style>
 </head>
 <body>
-
+<?php
+    include("include.php");
+?>
 <div class="container">
     <form method="post" action="">
         <h1>Simple Calculator</h1>
@@ -50,6 +52,5 @@
         <br>Result: <input type='text' value="<?php echo $response; ?>"><br>
     </form>
 </div>
-<?php include 'MyCalculator';?>
 </body>
 </html>
